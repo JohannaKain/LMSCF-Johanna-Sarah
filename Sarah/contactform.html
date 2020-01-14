@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contact Form</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<h1>Contact Us Here:</h1>
+
+<form action= "action.php">
+<b>First Name:</b>
+	<input type="text" name="first name" placeholder="First Name">
+		<br>
+<b>Last Name: </b>
+	<input type="text" name="last name" placeholder="Last Name">
+		<br>
+<b>Gender: </b><br>
+	<input type="radio" name="gender" value="male"> Male <br>
+	<input type="radio" name="gender" value="female"> Female <br>
+	<input type="radio" name="gender" value="other"> Other <br>
+		<br>
+<b>Telephone Number: </b>
+	<input type="text" name="number" placeholder="Telephone Number">
+		<br>
+<b>Email: </b>
+	<input type="text" name="email" placeholder="Email">
+		<br>
+<b>Do you prefer to be contacted by phone or email? </b><br>
+	<select name="preference">                                       
+        <option value="phone">Phone</option>
+        <option value="email" selected>Email</option>             
+	</select>
+		<br>
+<b>Message:</b> <br>
+<textarea name="message" rows="10" cols="30">Write Your Message Here :) </textarea>
+	<br>
+		<input type="submit" value="Submit your data">
+</form>	
+
+</body>
+</html>
